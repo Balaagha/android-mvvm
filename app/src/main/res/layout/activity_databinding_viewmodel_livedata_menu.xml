@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:ignore="HardcodedText">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="DataBinding, ViewModel, LiveData"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dataBindingIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Binding Intro" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dataBindingTwoWay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two way DataBinding" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewModelIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Model Intro" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/liveDataIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live Data Intro" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewModelAndLiveDataWithDataBindingIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewModel and LiveData with DataBinding" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
